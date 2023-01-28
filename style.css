@@ -96,6 +96,7 @@ a {
   }
   .hero-content {
     padding: 8rem 0 1.75rem 0;
+    height: 85svh;
   }
   .hero-title {
     line-height: 1.05;
@@ -107,6 +108,9 @@ a {
   .hero-title {
     line-height: 2rem;
     font-size: 1.5rem;
+  }
+  .nav {
+    padding-inline: 0;
   }
 } 
 @media (max-width: 300px) {
@@ -388,4 +392,9 @@ a {
   display: flex;
   gap: 1.5rem;
   padding: 1rem
+}
+@media (max-width: 370px) {
+  .footer-title span {
+    line-height: 1;
+  }
 }
